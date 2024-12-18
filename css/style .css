@@ -1,0 +1,409 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+}
+.clear-fix{
+    clear: both;
+} 
+body {
+    font-family: 'Arial', sans-serif;
+    color: white;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+/* ------------------------------------------navbar section ---------------  */
+#nav{
+    background-color: rgba(0, 0, 0, 0.134);
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+#nav .nav-content{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding-top: 15px;
+}
+#nav .nav-img{
+    width: 40%;
+}
+#nav img{
+    width: 30%;
+}
+#nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+}
+#nav ul a{
+    color: #dadae1 ;
+    transition: all 0.5s ease;
+}
+#nav ul a span{
+    color: white;
+}
+#nav ul a:hover{
+    color: #E2785D ;
+}
+/* ------------------------------ header section ---------------  */
+#header{
+    background-image: url(../images/shutterstock_277750193\ \(1\).jpg);
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+}
+#header .header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+#header .header-content h1{
+    font-size: 76px;
+    font-weight: 100;
+}
+#header .header-content p{
+    font-size: 40px;
+    font-family: "Dancing Script", cursive;
+    padding-block: 20px;
+}
+#header .header-content .button-menu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 280px;
+}
+#header .header-content .button-1{
+    background-color: #C1AB84;
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+    width: 130px;
+    border: 2px solid #C1AB84;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: all 0.3 ease;
+}
+#header .header-content .button-2{
+    background-color:#FFFFFF;
+    color: black;
+    padding: 15px;
+    font-size: 17px;
+    width: 130px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: all 0.3 ease;
+}
+#header .header-content .button-1:hover{
+    color: black;
+    background-color: #FFFFFF;
+}
+#header .header-content .button-2:hover{
+    background-color: #D0D1D3;
+}
+/* ---------------------------------------about section -------------  */
+.about-flex{
+    display: flex;
+}
+.about-img{
+    width: 50%;
+    margin-block: 70px;
+}
+.about-content{
+    width: 50%;
+    padding-top: 200px;
+}
+.about-content ul{
+    margin-top: 20px;
+}
+.about-content ul li{
+    padding-block: 10px;
+    color: #686868 ;
+    font-size: 18px;
+}
+.about-content ul i{
+    background-color: #C1AB84;
+    color: #FFFFFF;
+    padding: 15px;
+    font-size: 25px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.about-content h2{
+    color:  #253048;
+    font-size: 36px;
+    font-weight: 200;
+}
+.about-content p{
+    color: #686868;
+    font-size: 18px;
+    line-height: 1.7;
+}
+.about-content h3{
+    font-size: 28px;
+    color: #C1AB84;
+    font-family: "Dancing Script", cursive;
+    padding-block: 20px;
+}
+/* ---------------------------------------reviewers section -------------  */
+#reviewers{
+    background-color: #F8F8F8;
+}
+.reviewers-flex{
+    display: flex;
+}
+.reviewers-content{
+    width: 50%;
+    padding-top: 100px;
+}
+.reviewers-content ul{
+    margin-top: 20px;
+}
+.reviewers-content ul li{
+    padding-block: 10px;
+    color: #686868 ;
+    font-size: 18px;
+}
+.reviewers-content ul i{
+    color: #C1AB84;
+    font-size: 20px;
+    margin-right: 15px;
+    font-weight: 100;
+}
+.reviewers-content h2{
+    color:  #253048;
+    font-size: 36px;
+    font-weight: 200;
+}
+.reviewers-content p{
+    color: #686868;
+    font-size: 18px;
+    padding-top: 40px;
+    line-height: 1.7;
+}
+.reviewers-content h3{
+    font-size: 28px;
+    color: #C1AB84;
+    font-family: "Dancing Script", cursive;
+    padding-block: 15px;
+}
+.reviewers-img{
+    width: 50%;
+}
+.reviewers-img img{
+    width: 88%;
+    margin: 100px 80px;
+}
+/* ----------------------------- picture section ------------  */
+#pic{
+    background: linear-gradient(rgba(0, 0, 0, 0.434) 0% 100% ),url(../images/shutterstock_280369721.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    background-attachment: fixed;
+}
+/* -----------------------------dishes section ------------  */
+.head-dishes{
+    text-align: center;
+    padding: 80px 0 50px 0;
+}
+.head-dishes h2{
+    color:  #253048;
+    font-size: 36px;
+    font-weight: 200;
+}
+.head-dishes h3{
+    font-size: 28px;
+    color: #C1AB84;
+    font-family: "Dancing Script", cursive;
+    padding-top: 15px;
+}
+
+.menu-dishes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: black;
+    text-align: center;
+}
+.each-dish{
+    width: 32%;
+}
+.each-dish img{
+    width: 370px;
+}
+.each-dish h4{
+    color: 253048;
+    font-size: 21px;
+    font-weight: 100;
+    padding-block: 30px;
+}
+.each-dish p{
+    color: #686868;
+    font-size: 18px;
+    font-weight: 100;
+    padding-bottom: 60px;
+    line-height: 1.7;
+}
+.menu-button{
+    text-align: center;
+}
+#dishes button{
+    background-color: #C1AB84;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    width: 160px;
+    border: 2px solid #C1AB84;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-bottom: 80px;
+}
+/* -----------------------------Testimonials section ------------  */
+#Testimonials{
+    background: linear-gradient(rgba(0, 0, 0, 0.434) 0% 100% ),url(../images/shutterstock_277750193\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    background-attachment: fixed;
+}
+
+
+
+/* -------------------------contact information----------------------------- */
+#contact{
+    padding: 100px 0 100px 0;
+    background-color: #F8F8F8;
+}
+.text_contact{
+    color: #686868;
+    width: 50%;
+    float: left;
+    list-style: none;
+    line-height: 1.6;
+    font-size: 17px;
+}
+#contact .list i{
+    background-color: #C1AB84;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-right: 15px;
+}
+.text_contact h2{
+    color: #303030;
+    font-size: 32px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+.text_contact p{
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+.map_contact {
+    width: 50%;
+    float: left;
+}
+.map_contact iframe{
+    width: 100%; 
+}
+.text_contact .list li {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 4px; 
+    font-size: 18px;
+  }
+
+/* ----------------------footer----------------------------- */
+#footer{
+    background-color: #403D38;
+    color: #969696;
+    text-align: center;
+    list-style: none;
+    padding: 50px 0 80px 0;
+}
+#footer table{
+    width: 100%;
+    table-layout: fixed ;
+}
+#footer table h3{
+    text-align: left;
+    color: white;
+    font-weight: 100;
+    padding-bottom: 25px;
+}
+.footer-section {
+    vertical-align: top;
+    padding: 20px;
+}
+.footer-section ul li {
+    text-align: left;
+}
+.footer-section p{
+    text-align: left;
+    line-height: 1.7;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+#footer hr{
+    opacity: .1;
+    margin: 13px 0 13px 0;
+}
+.container-footer .backGround-map{
+    background-image: url(../images/world-map-with-flags\ \(1\).png);
+    background-repeat: no-repeat;
+}
+/* ----------------------copyright----------------------------- */
+#copyright{
+    background-color: #353330;
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+.image_copyright p{
+    padding: 30px 0 30px 0;
+    font-weight: 100;
+    font-size: 15px;
+    color: #605e5e;
+}
+.icon-list {
+    display: flex; 
+    justify-content: center;
+}
+.icon-list i {
+    margin: 0 7px;
+    font-size: 30px;
+    color: #605e5e;
+    background-color: #403D38;
+    padding: 10px;
+    border-radius: 50%;
+}
+.facebook_icon,
+.instagram_icon,
+.twitter_icon{
+    transition: all 1s ease;
+}
+.facebook_icon:hover{
+    color: #3B5998;
+    transform: scale(1.2);
+}
+.instagram_icon:hover{
+    color: rgb(139, 56, 56);
+    transform: scale(1.2);
+}
+.twitter_icon:hover{
+    color: #00ACED;
+    transform: scale(1.2);
+}
